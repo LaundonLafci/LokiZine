@@ -1,0 +1,298 @@
+<html>
+  <title>LOKI</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+<style>
+  .w3-sidebar a {font-family: "Barlow" }
+  body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Barlow";}
+</style>
+
+<body class="w3-content" style="max-width:1200px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <h3 class="w3-wide"><b>LOKI</b></h3>
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+    <a href="#" class="w3-bar-item w3-button">ABOUT LOKI</a>
+    <a href="#" class="w3-bar-item w3-button">NEWS</a>
+    <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
+      COVER STORY <i class="fa fa-caret-down"></i></a>
+    <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+      <a href="#" class="w3-bar-item w3-button w3-light-grey"><i class="fa fa-caret-right w3-margin-right"></i>WHO</a>
+      <a href="#" class="w3-bar-item w3-button">WHAT</a>
+      <a href="#" class="w3-bar-item w3-button">WHEN</a>
+      <a href="#" class="w3-bar-item w3-button">HOW</a>
+    </div>
+    <a href="#" class="w3-bar-item w3-button">LIFESTYLE</a>
+    <a href="#" class="w3-bar-item w3-button">STICK IT</a>
+    <a href="#" class="w3-bar-item w3-button">INNOVATION</a>
+    <a href="#" class="w3-bar-item w3-button">CREATIVE</a>
+  </div>
+  <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a>
+  <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a>
+</nav>
+
+
+
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide" ><a href="file:///Users/lundon/Desktop/designforjournalist2.html">LOKI</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+
+
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+
+
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+
+
+
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left"  p style="font-size:200%;""s>Our First Volume Is Officially Out</p>
+    <p class="w3-right">
+      <i class="fa fa-shopping-cart w3-margin-right"></i>
+      <i class="fa fa-search"></i>
+    </p>
+  </header>
+
+
+
+
+  <!-- Video header -->
+  <body class="home page-template-default page page-id-100" id="body" data-toggler="menu-open" data-gr-c-s-loaded="true"><div class="parallax-mirror" style="visibility: hidden; z-index: -100; position: fixed; top: 0px; left: 0px; overflow: hidden; height: 746px; width: 424px;"><img class="parallax-slider lazyloading" src="https://360kk73nf60j1amgkj11crnq-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/bolivia-1400x528.jpg" data-was-processed="true" style="position: absolute; height: 746px; width: 1978px; max-width: none;"></div><div class="parallax-mirror" style="visibility: hidden; z-index: -100; position: fixed; top: 0px; left: 0px; overflow: hidden; height: 746px; width: 424px;"><img class="parallax-slider lazyloading" src="https://360kk73nf60j1amgkj11crnq-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/home-envision-1400x640.jpg" data-was-processed="true" style="position: absolute; height: 746px; width: 1631px; max-width: none;"></div>
+
+
+
+
+<div id="components">
+  <style>#intro_section_5ccc8d0e6fab7 .intro-wrap {min-height:100vh;align-content:center;}@media only screen and (min-width: 75em) {#intro_section_5ccc8d0e6fab7 .intro-wrap {min-height:100vh;align-content:center;}}</style>
+  <div id="intro_section_5ccc8d0e6fab7" class="intro-section white">
+    <video loop="" muted="" playsinline="" id="intro_section_5ccc8d0e6fab7-video">
+      <source src="https://player.vimeo.com/external/325933021.hd.mp4?s=19948fca9cfb38674c3a82197d6ee30dcbd50d04&amp;profile_id=174"></video>
+  <script>document.getElementById("intro_section_5ccc8d0e6fab7-video").play()</script>
+        <div class="intro-wrap">
+        <div class="first-column intro-column stacked">
+            <h1>How do you print potential? Meet the team thats doing it.</h1>
+        <div class="button-group"><a href="file:///Users/lundon/Desktop/designforjournalist2.html" class="button on-dark" target="_self">READ MORE</a></div></div><div class="intro-column stacked"></div></div><a href="#press" class="scroll-anchor">
+            <img src="https://360kk73nf60j1amgkj11crnq-wpengine.netdna-ssl.com/wp-content/themes/newstory/src/img/down.svg" class="lazyloading" data-was-processed="true"></a></div><div
+  </script>
+  </div>
+
+<!--Other Stories-->
+  <div id="partners" class="slide-column-grid">
+    <div class="row" >
+    <div class="col-xs-12" >
+    <h2 class="scg-title text-left" h2 style="color:black;" h2 style="font-size:300%;" h2 style="margin-left:200px">Highlighting Loki's First Volume </h2>
+    <div class="row the-columns">
+
+        <div class="col-xs-12 col-md-4 scg-item ">
+            <div class="scg-item-back" style="background-image:url(file:///Users/lundon/Downloads/New%20Story%20Charity,%20high%20res-0375.jpg);"></div>
+            <div class="scg-overlay"></div>
+            <div class="scg-content">
+            <div class="scg-top">
+              <h2 class h2 style="font-size:800%;">WHO</div>
+              <div class="scg-bottom">
+                <p>New Story, a non-profit working to end global homelessness, has partnered with Icon, a homebuilding robotics company, to create the world’s first 3D printed community.</p>
+                <div class="button-group"><a href="/brand-partnerships/" class="button on-dark" target="_self"><a href="file:///Users/lundon/Desktop/designforjournalist2.html">LEARN MORE</a></div></div></div></div>
+
+        <div class="col-xs-12 col-md-4 scg-item ">
+            <div class="scg-item-back" style="background-image:url(file:///Users/lundon/Downloads/icon3d-aerial_020218%202.jpg);"></div>
+            <div class="scg-overlay"></div>
+            <div class="scg-content">
+            <div class="scg-top">
+              <h2 class h2 style="font-size:800%;">WHAT</div>
+            <div class="scg-bottom">
+              <p>24 hours to build. $6,000 for one home. Three times stronger than concrete. Zero waste.The first version of the printer, Vulcan 1, was unveiled at South by Southwest in Austin, TX, in March 2018. In 2019, a modified and improved version, Vulcan 2, will print the world’s first 3D printed community.</p>
+            <div class="button-group">
+              <a href="/brand-partnerships/" class="button on-dark" target="_self"> <a href="file:///Users/lundon/Desktop/designforjournalist2.html">LEARN MORE</a></div></div></div></div>
+
+        <div class="col-xs-12 col-md-4 scg-item ">
+            <div class="scg-item-back" style="background-image:url(file:///Users/lundon/Downloads/Adam%20Brophy%20-%20Family%20at%20tent%20house%20in%20Leveque,%20Haiti.jpg);"></div>
+            <div class="scg-overlay"></div>
+            <div class="scg-content">
+            <div class="scg-top">
+              <h2 class h2 style="font-size:800%;">WHY</div>
+            <div class="scg-bottom">
+              <p>The challenge the charity faces is massive. Over a billion people are in need of homes, and the number grows year by year. To find a solution, the young company decided they  have to do more than simply continue building. They have to build better, faster, and more affordably than ever before.</p>
+            <div class="button-group">
+              <a href="/brand-partnerships/" class="button on-dark" target="_self"><a href="file:///Users/lundon/Desktop/designforjournalist2.html">READ MORE</a></div></div></div></div></div></div></div></div></div>  <script>
+
+
+
+  </form>
+  </div>
+                <iframe style="display:none;width:0px;height:0px;" style="margin-left:250px" src="about:blank" name="gform_ajax_frame_1920542115" id="gform_ajax_frame_1920542115" title="Ajax Frame">This iframe contains the logic required to handle Ajax powered Gravity Forms.</iframe>
+                <script type="text/javascript">jQuery(document).ready(function($){gformInitSpinner( 1920542115, 'https://newstorycharity.org/wp-content/themes/newstory/src/img/loading.svg' );jQuery('#gform_ajax_frame_1920542115').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1920542115');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1920542115').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;if(is_form){jQuery('#gform_wrapper_1920542115').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1920542115').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1920542115').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1920542115, 'https://newstorycharity.org/wp-content/themes/newstory/src/img/loading.svg' );jQuery(document).trigger('gform_page_loaded', [1920542115, current_page]);window['gf_submitting_1920542115'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_1920542115').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [1920542115]);window['gf_submitting_1920542115'] = false;}, 50);}else{jQuery('#gform_1920542115').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [1920542115, current_page]);} );} );</script><script type="text/javascript"> if(typeof gf_global == 'undefined') var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/newstorycharity.org\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/newstorycharity.org\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 1920542115) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type="text/javascript"> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [1920542115, 1]) } ); </script></div></div></div></div></div><footer class="footer">
+
+
+<link rel="stylesheet" id="intro_section-css" href="https://360kk73nf60j1amgkj11crnq-wpengine.netdna-ssl.com/wp-content/themes/newstory/src/css/intro_section.css?ver=5.1.1" type="text/css" media="all">
+<link rel="stylesheet" id="press_banner-css" href="https://360kk73nf60j1amgkj11crnq-wpengine.netdna-ssl.com/wp-content/themes/newstory/src/css/press_banner.css?ver=5.1.1" type="text/css" media="all">
+<link rel="stylesheet" id="column_text-css" href="https://360kk73nf60j1amgkj11crnq-wpengine.netdna-ssl.com/wp-content/themes/newstory/src/css/column_text.css?ver=5.1.1" type="text/css" media="all">
+<link rel="stylesheet" id="slide_column_grid-css" href="https://360kk73nf60j1amgkj11crnq-wpengine.netdna-ssl.com/wp-content/themes/newstory/src/css/slide_column_grid.css?ver=5.1.1" type="text/css" media="all">
+<link rel="stylesheet" id="cta_section-css" href="https://360kk73nf60j1amgkj11crnq-wpengine.netdna-ssl.com/wp-content/themes/newstory/src/css/cta_section.css?ver=5.1.1" type="text/css" media="all">
+<script type="text/javascript" src="https://360kk73nf60j1amgkj11crnq-wpengine.netdna-ssl.com/wp-content/themes/newstory/src/js/parallax.min.js?ver=5.1.1"></script>
+<script type="text/javascript" src="https://360kk73nf60j1amgkj11crnq-wpengine.netdna-ssl.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.4.6"></script>
+<script type="text/javascript" src="https://360kk73nf60j1amgkj11crnq-wpengine.netdna-ssl.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.4.6"></script>
+<script type="text/javascript" src="https://360kk73nf60j1amgkj11crnq-wpengine.netdna-ssl.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.4.6"></script>
+<script>(function(w, d){
+	var b = d.getElementsByTagName("body")[0];
+	var s = d.createElement("script"); s.async = true;
+	s.src = !("IntersectionObserver" in w) ? "https://newstorycharity.org/wp-content/plugins/wp-rocket/inc/front/js/lazyload-8.15.2.min.js" : "https://newstorycharity.org/wp-content/plugins/wp-rocket/inc/front/js/lazyload-10.17.min.js";
+	w.lazyLoadOptions = {
+		elements_selector: "img",
+		data_src: "lazy-src",
+		data_srcset: "lazy-srcset",
+		data_sizes: "lazy-sizes",
+		skip_invisible: false,
+		class_loading: "lazyloading",
+		class_loaded: "lazyloaded",
+		threshold: 300,
+		callback_load: function(element) {
+			if ( element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible" ) {
+				if (element.classList.contains("lazyloaded") ) {
+					if (typeof window.jQuery != "undefined") {
+						if (jQuery.fn.fitVids) {
+							jQuery(element).parent().fitVids();
+						}
+					}
+				}
+			}
+		}
+	};
+	b.appendChild(s);
+}(window, document));
+
+
+window.addEventListener('LazyLoad::Initialized', function (e) {
+
+	var lazyLoadInstance = e.detail.instance;
+
+	var observer = new MutationObserver(function(mutations) {
+		mutations.forEach(function(mutation) {
+			lazyLoadInstance.update();
+		} );
+	} );
+
+	var b      = document.getElementsByTagName("body")[0];
+	var config = { childList: true, subtree: true };
+
+	observer.observe(b, config);
+}, false);
+</script><script async="" src="https://newstorycharity.org/wp-content/plugins/wp-rocket/inc/front/js/lazyload-10.17.min.js"></script>
+</body>
+
+  <div id="components">
+    <style>
+      #intro_section_5ccc8d0e6fab7 .intro-wrap {min-height:100vh;align-content:center;}@media only screen and (min-width: 75em) {#intro_section_5ccc8d0e6fab7 .intro-wrap {min-height:100vh;align-content:center;}}
+    </style>
+
+      <div id="#intro_section_5ccc8d0e6fab7" class="intro-section white"
+
+      <video loop muted playsinline width="320" height="240" loop>
+        <source src=”https://player.vimeo.com/external/325933021.hd.mp4?s=19948fca9cfb38674c3a82197d6ee30dcbd50d04&profile_id=174">
+        ::before
+        ::after
+        </source>
+      </video>
+
+    <script>document.getElementById("intro_section_5ccc8d0e6fab7-video").play()</script>
+
+  </div>
+
+
+
+  <!-- Subscribe section -->
+  <div class="w3-container w3-black w3-padding-32" style="margin-left:250px">
+    <h1>subscribe</h1>
+    <p>come sit with us</p>
+    <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+    <button type="button" class="w3-button w3-blue w3-margin-bottom">Subscribe</button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer" style="margin-left:250px">
+    <div class="w3-row-padding">
+      <div class="w3-col s4">
+        <h4>Contact</h4>
+        <p>Questions? Go ahead.</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
+          <button type="submit" class="w3-button w3-block w3-black">Send</button>
+        </form>
+      </div>
+
+      <div class="w3-col s4 w3-justify" style="margin-left:250px">
+        <h4>Store</h4>
+        <p><i class="fa fa-fw fa-map-marker"></i> LOKI </p>
+        <p><i class="fa fa-fw fa-phone"></i> 484.353.9702</p>
+        <p><i class="fa fa-fw fa-envelope"></i> lafcl547@newschool.edu</p>
+        <h4>We accept</h4>
+        <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+        <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+        <br>
+        <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+        <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+        <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
+        <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
+        <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+      </div>
+    </div>
+  </footer>
+
+  <div class="w3-black w3-center w3-padding-24">Powered by <a href="Lundon" title="Lundon" target="_blank" class="w3-hover-opacity">Lundon</a></div>
+
+  <!-- End page content -->
+</div>
+
+<!-- Newsletter Model -->
+<div id="newsletter" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
+    <div class="w3-container w3-white w3-center">
+      <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
+      <h2 class="w3-wide">NEWSLETTER</h2>
+      <p>Join our mailing list to receive updates on new arrivals and special offers.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-padding-large w3-blue w3-margin-bottom" onclick="document.getElementById('newsletter').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
